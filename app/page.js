@@ -88,7 +88,7 @@ export default function Home() {
           </div>
           <p>Soma: {dados1[0] + dados1[1]}</p>
           {/* disabled: botão desativado quando NÃO é a vez dele, ou quando o jogo acabou */}
-          <button onClick={jogar1} disabled={turno !== 1 || fim} style={botao}>Jogar</button>
+<button onClick={jogar1} disabled={turno !== 1 || fim}>Jogar</button>
         </div>
 
         {/* Coluna do Jogador 2 */}
@@ -99,7 +99,7 @@ export default function Home() {
             <div style={dado}>{dados2[1]}</div>
           </div>
           <p>Soma: {dados2[0] + dados2[1]}</p>
-          <button onClick={jogar2} disabled={turno !== 2 || fim} style={botao}>Jogar</button>
+          <button onClick={jogar2} disabled={turno !== 2 || fim}>Jogar</button>
         </div>
 
       </div>
@@ -114,7 +114,7 @@ export default function Home() {
       {fim && (
         <div style={{ marginTop: "20px" }}>
           <h2>{mensagemFinal()}</h2>
-          <button onClick={jogarNovamente} style={botao}>Jogar Novamente</button>
+          <button onClick={jogarNovamente}>Jogar Novamente</button>
         </div>
       )}
     </div>

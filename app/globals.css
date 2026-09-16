@@ -11,3 +11,22 @@ body {
   justify-content: center;
   padding: 40px 20px;
 }
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #22c55e;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #16a34a;
+}
+
+button:disabled {
+  background-color: #9ca3af;
+  cursor: not-allowed;
+}
