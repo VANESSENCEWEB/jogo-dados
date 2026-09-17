@@ -8,7 +8,7 @@ Dois jogadores · Cinco rodadas · Dois dados por jogador · Vencedor por maior 
 
 <br />
 
-[![Vercel Deploy](https://img.shields.io/badge/Deploy-Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://jogo-dados-unicap.vercel.app/)
+[![Vercel Deploy](https://img.shields.io/badge/Deploy-Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://jogo-dados-react.vercel.app/)
 [![Watch Demo](https://img.shields.io/badge/▶_Assistir_Demo-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://youtu.be/bN4IB1Xkg8E)
 
 <br />
@@ -20,7 +20,7 @@ Dois jogadores · Cinco rodadas · Dois dados por jogador · Vencedor por maior 
 
 <br />
 
-**[🌐 Ver ao vivo](https://jogo-dados-unicap.vercel.app/)** ·
+**[🌐 Ver ao vivo](https://jogo-dados-react.vercel.app/)** ·
 **[🎥 Demo em vídeo](#-demo-em-vídeo)** ·
 **[🎮 Como jogar](#-como-jogar)** ·
 **[🛠️ Stack](#️-stack-técnica)** ·
@@ -196,7 +196,7 @@ jogo-dados/
 Estudante de Sistemas para Internet na UNICAP (Pernambuco, Brasil).
 Fundadora da VanessenceWeb Ltd (UK). Apaixonada por front-end, UX e qualidade de código.
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/vanessa-lima-web)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/vanessa-lima-dev)
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)](https://github.com/VANESSENCEWEB)
 
 </td>
