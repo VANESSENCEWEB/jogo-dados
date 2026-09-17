@@ -1,18 +1,11 @@
+// Componente Dado: recebe uma prop "valor" (1 a 6) e mostra a imagem correspondente
 export default function Dado({ valor }) {
   return (
-    <div style={{
-      width: "80px",
-      height: "80px",
-      border: "2px solid #333",
-      borderRadius: "10px",
-      backgroundColor: "white",
-      display: "flex",
-      alignItems: "center",
-      justifyContent: "center",
-      fontSize: "40px",
-      fontWeight: "bold"
-    }}>
-      {valor}
-    </div>
+    <img
+      src={`/dados/${valor}.svg`}  // monta o caminho da imagem: /dados/1.svg, /dados/2.svg...
+      alt={`Dado com valor ${valor}`}
+      width={70}
+      height={70}
+    />
   );
 }

@@ -1,6 +1,7 @@
 "use client"; // Diz ao Next que essa tela é interativa (responde a cliques)
 
 import { useState } from "react"; // useState guarda informações que mudam na tela
+import Dado from "./components/Dado"; // componente que mostra a imagem do dado
 
 export default function Home() {
   const [rodada, setRodada] = useState(1);        // rodada atual (começa em 1)
@@ -71,7 +72,7 @@ export default function Home() {
   }
 
   return (
-    <div style={{ textAlign: "center" }}>
+    <main style={{ textAlign: "center" }}>
       <h1>Jogo de Dados</h1>
 
       {/* EM CIMA: enquanto o jogo rola mostra a rodada; no fim mostra o vencedor do jogo */}
@@ -87,8 +88,8 @@ export default function Home() {
         <div>
           <h2>Jogador 1</h2>
           <div style={caixaDados}>
-            <div style={dado}>{dados1[0]}</div>
-            <div style={dado}>{dados1[1]}</div>
+            <Dado valor={dados1[0]} />
+            <Dado valor={dados1[1]} />
           </div>
           <p>Soma: {dados1[0] + dados1[1]}</p>
           <button onClick={jogar1} disabled={turno !== 1 || fim}>Jogar</button>
@@ -98,8 +99,8 @@ export default function Home() {
         <div>
           <h2>Jogador 2</h2>
           <div style={caixaDados}>
-            <div style={dado}>{dados2[0]}</div>
-            <div style={dado}>{dados2[1]}</div>
+            <Dado valor={dados2[0]} />
+            <Dado valor={dados2[1]} />
           </div>
           <p>Soma: {dados2[0] + dados2[1]}</p>
           <button onClick={jogar2} disabled={turno !== 2 || fim}>Jogar</button>
@@ -117,15 +118,9 @@ export default function Home() {
       {fim && (
         <button onClick={jogarNovamente} style={{ marginTop: "10px" }}>Jogar Novamente</button>
       )}
-    </div>
+    </main>
   );
 }
-
-const dado = {
-  width: "70px", height: "70px", border: "2px solid #333",
-  borderRadius: "10px", backgroundColor: "white", display: "flex",
-  alignItems: "center", justifyContent: "center", fontSize: "36px", fontWeight: "bold"
-};
 
 const caixaDados = {
   display: "flex", gap: "10px", justifyContent: "center", margin: "15px 0"
