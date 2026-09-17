@@ -9,6 +9,7 @@ Dois jogadores · Cinco rodadas · Dois dados por jogador · Vencedor por maior 
 <br />
 
 [![Vercel Deploy](https://img.shields.io/badge/Deploy-Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://jogo-dados-react.vercel.app/)
+[![GitHub](https://img.shields.io/badge/GitHub-jogo--dados-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/VANESSENCEWEB/jogo-dados)
 [![Watch Demo](https://img.shields.io/badge/▶_Assistir_Demo-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://youtu.be/bN4IB1Xkg8E)
 
 <br />
@@ -17,6 +18,8 @@ Dois jogadores · Cinco rodadas · Dois dados por jogador · Vencedor por maior 
 ![React](https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=black)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white)
+![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat&logo=vercel&logoColor=white)
+
 
 <br />
 
